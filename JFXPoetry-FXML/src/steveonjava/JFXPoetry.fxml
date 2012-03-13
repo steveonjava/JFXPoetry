@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<StackPane prefHeight="375" prefWidth="500" xmlns:fx="http://javafx.com/fxml" fx:controller="steveonjava.Controller">
+    <children>
+        <ImageView fx:id="imageView">
+            <image>
+                <Image fx:id="image" url="http://farm1.static.flickr.com/39/121693644_75491b23b0.jpg"/>
+            </image>
+        </ImageView>
+        <Text fx:id="text" cache="true" text="
+The year's at the spring,&#10;
+And day's at the morn;&#10;
+Morning's at seven;&#10;
+The hill-side's dew-pearled;&#10;
+The lark's on the wing;&#10;
+The snail's on the thorn;&#10;
+God's in His heaven--&#10;
+All's right with the world!"/>
+        <Button fx:id="button" text="Play Again" onAction="#replay"/>
+    </children>
+</StackPane>

@@ -1,0 +1,16 @@
+#text {
+    -fx-font-family: serif;
+    -fx-font-weight: bold;
+    -fx-font-size: 30pt;
+    -fx-fill: goldenrod;
+    -fx-effect: dropshadow(three-pass-box, black, 3, .5, 0, 0);
+}
+
+#button {
+    -fx-background-color: linear-gradient(darkorange, derive(darkorange, -80%));
+    -fx-background-radius: 24;
+    -fx-padding: 12;
+    -fx-font-size: 16pt;
+    -fx-font-weight: bold;
+    -fx-text-fill: white;
+}
